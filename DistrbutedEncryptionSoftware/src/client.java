@@ -22,7 +22,7 @@ public class client {
                            Naming.lookup("rmi://localhost/EncryptionService");
             
 	    // Now use the reference c to call remote methods
-	    System.out.println(c.encrypt("Hello", null) );		
+	    System.out.println(c.encrypt("Hello", "12345") );		
             
         }
         // Catch the exceptions that may occur - rubbish URL, Remote exception
